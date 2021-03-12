@@ -3028,8 +3028,51 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
 
+        LEMONMILKRegular12
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Regular"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+	    
+		LEMONMILKRegular16
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Regular"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		LEMONMILKRegular32
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Regular"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		LEMONMILKRegular48
+		{
+			"1"
+			{
+				"name"		"LEMON MILK Regular"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+    }
+	
+	 //These are the fonts I am using in my custom hud
+
+	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5719,6 +5762,7 @@ Scheme
 	// characters in the range not specificed in the font will appear empty
 	// For TF2: Any special character will need to be added to our font file
 	CustomFontFiles
+{
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
@@ -5839,5 +5883,25 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-	}
+		"8"
+		{
+			"font"	"resource/fonts/LEMONMILK-Bold.otf"
+			"name" "LEMON MILK Bold"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/LEMONMILK-Light.otf"
+			"name" "LEMON MILK Light"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/LEMONMILK-Medium.otf"
+			"name" "LEMON MILK Medium"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/LEMONMILK-Regular.otf"
+			"name" "LEMON MILK Regular"
+		}
+   	}
 }
